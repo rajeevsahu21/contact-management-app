@@ -1,0 +1,34 @@
+{
+  "name": "contact-management-app",
+  "version": "1.0.0",
+  "description": "users can manage their contacts",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajeevsahu21/contact-management-app.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Rajeev Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeevsahu21/contact-management-app/issues"
+  },
+  "homepage": "https://github.com/rajeevsahu21/contact-management-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  }
+}
