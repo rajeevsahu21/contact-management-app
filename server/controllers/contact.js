@@ -71,11 +71,9 @@ export const getContacts = async (req, res) => {
       { $match: query },
       {
         $project: {
-          contact_id: "$_id",
           name: 1,
           email: 1,
           phoneNumber: 1,
-          _id: 0,
         },
       },
       { $skip: skip },
